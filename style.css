@@ -6,6 +6,7 @@
 
 body{
    background-color: #ffefcb;
+   margin: 0;
 }
 
 .headerBody{
@@ -59,8 +60,50 @@ header a:hover {
 }
 main header img{
 
-height: 400px;
-width: 310px;
-margin-left: 75vw;
+width: 20vw;
+height: 30vw;
+margin-left: 24vw;
+z-index: -1;
+padding-left: 130px;
+
 
 }
+main header{
+
+display: inline-flex;
+
+justify-content: flex-start;
+width: 100vw;
+left: 0;
+
+
+}
+h1{
+   margin-left: auto;
+   margin-right: auto;
+  padding-left: 130px;
+   width: 55vw;
+   font-size: 5.5vw;
+   margin-top: -130px;
+   margin-bottom: -5.5vw;
+   text-transform: uppercase;
+   
+  
+}
+main header p{
+
+
+width: 30vw;
+margin-left: 10vw;
+font-size: 1.5vw;
+font-weight: 600;
+
+
+}
+h1::after {
+  
+   color: #fff;
+   content: 'NIE';
+   position: absolute;
+   transform: translate(-100%, 0), scale(1.2);
+ }
