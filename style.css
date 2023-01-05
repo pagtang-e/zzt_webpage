@@ -162,6 +162,7 @@ background-color: #fff;
    display: flex;
    overflow: hidden;
    width: 100vw;
+   margin-bottom: 50px;
    
 }
 #artykuly img{
@@ -176,4 +177,51 @@ margin-left: 6vw;
 font-size: 1.5vw;
 font-weight: 600;
 
+}
+footer{
+   display: flex;
+   justify-content: space-between;
+  background-color: #3c3c3c;
+  color: #fff;
+  align-items: center;
+  font-size: 1.1vw;
+font-weight: 600;
+}
+#lastLogo {
+
+width: 20vw;
+
+
+}
+footer p{
+
+width: 25vw;
+
+}
+footer div{
+   align-self: flex-start;
+   margin-top: 2vw;
+}
+footer a{
+
+   font-size: 2vw;
+   font-weight: 600;
+   text-decoration: none;
+   color: #fff;
+   
+}
+footer a:hover {
+
+   color: #eee;
+   text-decoration: underline;
+
+}
+footer h2{
+margin-bottom: 10px;
+color: #fff;
+border-color: #fff;
+
+}
+footer ul{
+  margin-left: 4vw;
 }
